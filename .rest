@@ -1,0 +1,28 @@
+GET http://localhost:3000/team/
+
+###
+
+POST http://localhost:3000/team/
+Content-Type: application/json
+
+{
+    "name": "Albert",
+    "hobby": "Skriva musik",
+    "age": 20
+}
+
+###
+
+PUT http://localhost:3000/team/4
+Content-Type: application/json
+
+{
+    "name": "Johannes",
+    "hobby": "Girls",
+    "age": 26
+}
+
+###
+
+DELETE  http://localhost:3000/team/2
+Content-Type: application/json
